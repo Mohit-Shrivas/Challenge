@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital@1&family=Shizuru&display=swap');
+
+*{
+    font-family: 'arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+header{
+    margin: 35px;
+  
+}
+
+.had{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.had button{
+    margin: 3px;
+    color: hotpink;
+    height: 40px;
+    width: 180px;
+    border: 1px solid hotpink;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.had button:hover{
+   cursor: pointer;
+   background-color: rgb(255, 190, 222);
+
+}
+.page1{
+    background-color: lightgreen;
+}
+
+.page1 h1{
+    text-align: center;
+    margin: 130px 130px 30px 130px;
+    padding: 12px;
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(31, 38, 58);
+
+}
+
+.page1 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0 425px 0 425px;
+
+}
+.page1 button{
+    position: relative;
+    left: 570px;
+    top: 30px;
+    height: 60px;
+    width: 350px;
+    font-size: 22px;
+    color: white;
+    border: 0;
+    background-color: rgb(252, 57, 154);
+    border-radius: 40px;
+    font-weight: bold;
+    box-shadow: 1px 2px 10px rgb(68, 66, 66);
+
+}
+
+.page1 button:hover{
+    cursor: pointer;
+    background-color: rgb(245, 106, 210);
+    
+    
+}
+
+.mok{
+    margin: 20px auto 10px 150px ;
+    padding: 70px;
+}
+.count {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px; 
+  }
+  .count img {
+    float: left;
+    position: relative;
+    left: 450px;
+    right: 200px;
+  }
+  .count h1 {
+    font-size: 4.0rem;
+    margin-top: 5px ;
+    font-family: "Open Sans", sans-serif;
+  }
+  .count p {
+    opacity: 0.6;
+  }
+  section{
+      position: relative;
+      right: 280px;
+  }
+
+.sec img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    background-color: lightgreen;
+}
+.txtt  p{
+    /* text-indent: 0px; */
+    padding: 0;
+    
+}
+
+.txtt  {
+       margin: 20px;
+       padding: 30px;
+       padding-right: 100px;
+}
+.ssimg img{
+    height: 450px;
+    max-width: 500px;
+padding-right: 0px; 
+
+}
+
+/* .sec-1{
+    height: 500px;
+} */
+
+footer{
+    background-color: blue;
+}

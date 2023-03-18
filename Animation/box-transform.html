@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-transformation</title>
+
+    <style>
+
+        .trp{
+            border: 1px solid black;
+            height: 100px;
+            width: 150px;
+            background-color: blueviolet;
+            position: relative;
+            left: 200px;
+            top: 50px;
+            transition: width 2s, height 2s, transform 3s;
+            /* transition: background-image 2s; */
+        }
+        .trp:hover{
+           border-radius: 25px 20px 30px;
+           width: 300px;
+           height: 250px;
+           transform: rotate(180deg);
+           background-image: conic-gradient(red, yellow, green);
+
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>THis is amazing for making</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ipsam.</p>
+    <div class="trp">
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box_animation</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body{
+            background: black ;
+            
+        }
+        .container{
+            display: flex;
+            flex-direction: flex-end;
+            justify-content: center;
+        }
+        .container p{
+            position: absolute;
+            color: white;
+            font-family: consolas;
+            font-size: 2.5em;
+            top: 60%;
+        }
+
+        .card{
+           
+            border: 2px solid gray;
+            text-align: center;
+            height: 130px;
+            width: 130px;
+            /* position: relative;
+            top: 50%;
+            left: 50%; */
+            margin-top: 250px;
+            padding: auto;
+            line-height: 130px;
+            color: green;
+            font-weight: bold;
+            background-color: white;
+            font-size: 20px;
+            box-shadow: 2px 3px 15px lightseagreen,3px 3px 10px lightseagreen,1px 3px 20px rgb(163, 255, 250);
+            animation-name: sample;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count:infinite;
+            animation-direction: alternate-reverse;
+            /* animation: sample  2s infinite alternate-reverse 2s; */
+        } 
+            
+                @keyframes sample{
+                    0%{
+                        border-radius:0%;
+                        border: 2px solid red;
+                        background-image: conic-gradient( red,blueviolet,green,yellow);
+                        color: blue;
+                        transform: rotate(0deg);
+                    }
+                    30%{
+                        background: black;
+                    }
+                    100%{
+                        border-radius:50%;
+                        border: 2px solid lightseagreen;
+                        background-image: linear-gradient(red,green,orange);
+                        color: lightyellow;
+                        border-top: 2px solid transparent ;
+
+                        transform: rotate(360deg);
+                       
+                    }
+                }
+                span{
+                    color:lightseagreen ;
+                    font-weight: 500;
+                }
+                 span::after{
+                     content: "";
+                     position: absolute;
+                      left: 0;
+                      
+                     background: black;
+                     height: 45px;
+                     width:100%;
+                     border-left: 1px solid #eee;
+                     animation: typing 1.7s steps(11)infinite;
+
+        }
+        @keyframes typing{
+            100%{
+                left:100%;
+                margin: 0 -35px 0 35px;
+
+            }
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>hello World: box_animation</h1>
+    <div class="container">
+    <div class="card"> box_osm</div>
+    <div class="card"> box_osm</div>
+    <div class="card"> box_osm</div>
+    <p>L<span>oading...</span></p>
+
+</div>
+</body>
+</html>

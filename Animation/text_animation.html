@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text_animation</title>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital@1&family=Shizuru&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #343F4F;
+            
+        }
+
+        .container{
+            display: inline-flex;
+
+        }
+
+        .dyanmic{
+            color: #fff;
+            font-size: 60px;
+            font-weight: 400;
+
+        }
+        .txt li{
+            list-style: none;
+            font-size: 48px;
+            color: tomato;
+            position: relative;
+            font-weight: 500;
+            height: 85px;
+            top: 0;
+            animation: slide 6.8s steps(4)infinite;
+           
+        }
+
+        @keyframes slide {
+            100%{
+                top: -360px;
+                
+
+            }
+        }
+
+
+         .txt{
+            margin-left: 20px;
+            height: 70px;
+            line-height: 90px;
+            overflow: hidden;
+        }
+        .txt li span{
+            position: relative;
+        }
+        .txt li span::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            background: #343F4F;
+            height: 70px;
+            width:100%;
+            border-left: 1px solid tomato;
+            animation: typing 1.7s steps(13)infinite;
+            /* animation-timing-function: cubic-bezier(.65,.19,.26,.63); */
+
+        }
+        @keyframes typing{
+            100%{
+                left:100%;
+                margin: 0 -35px 0 35px;
+
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="dyanmic">I'm a</div>
+        <ul class="txt">
+            <li><span>Developer.</span></li>
+            <li><span>Freelancer.</span></li>
+            <li><span>Desiner.</span></li>
+            <li><span>Student.</span></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

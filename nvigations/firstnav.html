@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation-First</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+       
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          
+        }
+
+       li a button{
+            font-family: Montserrat sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            text-decoration: none;
+            color: #eee;
+            border: 1px double thistle;
+            height: 33px;
+            width: 100px;
+            border-radius: 50px;
+            box-shadow: 1px 2px 3px 0 #eee;
+            cursor: pointer;
+            background-color: rgb(47, 137, 211);
+            
+        }
+        li a button:hover{
+            color: rgb(189, 190, 90);
+            box-shadow: 1px 2px 3px 0 #eee3;
+
+        }
+
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* padding: 20px 10%; */
+            list-style: none;
+           /* padding-bottom: 50px; */
+           background-color: #24252A;
+            /* border: 1px solid white; */
+
+        }
+
+        header img{
+            height: 80px;
+            width: 120px;
+        }
+
+        .logo{
+            cursor: pointer;
+
+        }
+        .nav_link{
+            list-style: none;
+           
+
+        }
+
+        .nav_link li{
+            display: inline-block;
+            padding: 0px 20px;
+            font-size: 18px;
+          
+        }
+
+        .nav_link li{
+            transition: all 0.3s ease 0s;
+        }
+
+        .nav_link li a:hover{
+            color: #eee;
+            
+            background-color: rgb(76, 99, 96);
+            height: 30px;
+
+        }
+
+        .nav_link li a{
+            text-decoration: none;
+        }
+     li a{
+           position: relative;
+            float: right;
+        }
+      
+
+    </style>
+
+
+</head>
+<body>
+   <header class="rbb">
+        <img src="E:\resources\huddle-landing-page-with-single-introductory-section-master\huddle-landing-page-with-single-introductory-section-master\images\logo.svg" alt="" class="logo">
+     <nav>
+        <ul class="nav_link">
+            <li>  <a href="#">About </a>  </li>
+            <li>  <a href="#">service </a>  </li>
+            <li>  <a href="#">project </a>  </li>
+
+          
+    
+        </ul>
+       
+    </nav>
+    <li> <a  class="btm" href="#"><button>Contact</button></a></li>
+
+</header>
+</body>
+</html>

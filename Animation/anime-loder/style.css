@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: violet;
+}
+.container{
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+    background-color: greenyellow;
+    border: 1px dotted darkblue;
+    animation: more 8s infinite ease-in-out alternate;
+}
+@keyframes more{
+    from{
+        transform: rotate(0deg);
+        left: 0%;
+    }
+    to{
+        transform: rotate(360deg);
+        border-radius: 20%;
+        /* left: 45%; */
+        left: 60%;
+    }
+}
+.box{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation-name: harry;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function:cubic-bezier(.8,.35,.21,.73);
+    animation-direction: alternate;
+
+}
+.box1{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    background-color: rgb(76, 0, 255);
+    border: 1px solid rgb(238, 255, 0);
+    border-radius: 50%;
+    animation-name: harry1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function:cubic-bezier(.8,.35,.21,.73);
+    animation-direction: alternate;
+}
+@keyframes harry{
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:300px; top:0px;}
+  50%  {background-color:blue; left:300px; top:300px;}
+  75%  {background-color:green; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+@keyframes harry1{
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:brown; left:100px; top:0px;}
+    50%  {background-color:gray; left:100px; top:90px;}
+    75%  {background-color:hotpink; left:0px; top:90px;}
+    100% {background-color:aqua; left:0px; top:0px;}
+}

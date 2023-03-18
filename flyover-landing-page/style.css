@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lobster&family=Montserrat:wght@200&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital@1&family=Shizuru&family=Short+Stack&family=Space+Mono:ital@1&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: rgb(236, 243, 243);
+    font-family: 'Inconsolata', monospace;
+}
+header{
+    /* background: red; */
+    height: 50px;
+    width: auto;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    float: right;
+    padding: 10px 20px ;
+}
+
+ul li{
+    display: inline-block;
+    /* float: right; */
+    padding: 15px;
+
+}
+li a {
+    text-decoration: none;
+    list-style: none;
+    padding:30px 30px 30px 30px;
+    color: black;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid orangered;
+    color: purple;
+}
+
+.one{
+    display: flex;
+}
+
+.one-ka-right img{
+    height: 450px;
+    width: auto;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.one-ka-left{
+    margin: 50px;
+    width: 700px;
+}
+.one-ka-left p{
+    color: black;
+}
+h3{
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+p{
+    color: rgb(22, 18, 18);
+    padding: 20px;
+    padding: 0 60px 5px 0px;
+    margin: 10px;
+}
+.myinput{
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.myinput input{
+    height: 32px;
+    width: 200px;
+    border: 1px solid black;
+    padding-right: 15px;
+
+}
+.myinput button{
+        height: 33px;
+        width: 150px;
+        background-color: rgb(44, 44, 255);
+        color: rgb(41, 35, 35);
+        font-size: 17px;
+        border: 0px;
+        cursor: pointer;
+        box-shadow: 0 2px 13px rgba(0, 0, 0, 0.4) ,1px 2px 13px rgba(0, 0, 0, 0.4);
+}
+.myinput button:hover{
+   background-color: orange;
+   border-bottom:2px solid red;
+   box-shadow: 0 2px 13px rgba(158, 31, 31, 0.4) ,1px 2px 13px rgba(80, 1, 1, 0.4);
+
+}
+
+.two{
+    display: flex;
+}
+
+.two-ka-right img{
+    height: 450px;
+    width: auto;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.two-ka-left{
+    margin: 50px;
+    width: 700px;
+    /* background-color: aqua; */
+  
+}
+
+.two-ka-left a{
+   list-style: none;
+   text-decoration: none;
+   color: blue;
+ 
+}
+.two-ka-left p{
+    color: rgb(31, 28, 28);
+  
+ }
+.two-h2{
+
+    font-size: 35px;
+}
+.mydiv{
+    height: 170px;
+    width: 250px;
+    /* background-color: tomato; */
+    padding:50px;
+    border: 0px;
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.4) ,1px 2px 13px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+.mydiv:hover{
+    background: rgb(247, 155, 139);
+}
+
+.mydiv img{
+    height: 40px;
+    width: 30px;
+}
+.div-ka-p {
+    color: black;
+}
+
+
+
+.avtar{
+    display: flex;
+   
+}
+.avtar img{
+    height: 40px;
+    width: 30px;
+    border-radius: 40px;
+}
+.ceo{
+    color: black;
+}
+.ceo span{
+    color: gray;
+}
+
+.container{
+    display: flex;
+    height: 270px;
+    width: auto;
+    background-color: rgb(95, 95, 196) ;
+}
+.cont1{
+    height: 270px;
+    width: 600px;
+    /* background-color: greenyellow; */
+}
+.cont1 h2{
+    margin-top: 50px;
+    padding-top: 5px;
+    color: #eee;
+}
+.cont1 p {
+    color: #eee;
+    padding-right: 80px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.cont2 input{
+  width: 350px;
+  height: 25px;
+}
+
+.cont2 button{
+   height: 33px;
+   width: 170px;
+   background-color: rgb(44, 44, 255);
+   color: white;
+   font-size: 17px;
+   border: 0px;
+   cursor: pointer;
+   box-shadow: 0 2px 13px rgba(0, 0, 0, 0.4) ,1px 2px 13px rgba(0, 0, 0, 0.4);
+}
+.last{
+    display: flex;
+    background-color:darkblue;
+    height: 300px;
+    width: auto;
+}
+.last,p,li,a{
+    color: #eee;
+}
+.last a{
+    color: #eee;
+}
+.last-one{
+    /* background-color: orangered; */
+    width: 380px;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 30px;
+}
+.phone span{
+    padding-right: 5px;
+}
+.email span{
+    padding-right: 5px;
+}
+
+
+.contt{
+    display: flex; 
+}
+.contt-child{
+   display: flex;
+   flex-direction: column;
+   /* background-color: red; */
+   position: relative;
+   right: 30%;
+   width: 250px;
+   /* margin-top: 10px; */
+}
+.contt-two{
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   right: 10%;
+   width: 250px;
+   /* margin-top: 10px; */
+    /* background-color: yellow; */
+}
+.contt-three{
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    right: 10%;
+   /* margin-top: 10px; */
+    /* background-color: green; */
+}
+.contt-three-child{
+    position: relative;
+    top: 20%;
+    left: 10%;
+}

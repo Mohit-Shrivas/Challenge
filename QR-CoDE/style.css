@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital@1&family=Shizuru&family=Short+Stack&family=Space+Mono:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family:'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+    /* color: darkgoldenrod; */
+    text-shadow: 2px 4px 7px rgba(0, 0, 0, 0.5),2px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    border: 0px solid black;
+    height: 500px;
+    width: 310px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: #eee;
+    border-radius: 15px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.2),1px 1px 13px rgba(0, 0, 0, 0.2);
+}
+.mg img{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+.mg{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 10px;
+}
+
+.am{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+#p1{
+    /* margin: 10px; */
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px;
+    text-indent: 10px;
+}
+#p2{
+    padding: 30px;
+    margin-bottom: 10px;
+    color: rgb(104, 104, 104);
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: 0;
+    color:black;
+    font-weight: bold;
+    background: linear-gradient(to right,rgb(7, 243, 184) ,skyblue, rgb(61, 61, 223));
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.2),1px 1px 13px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.btn{
+    text-align: center;
+   
+
+}
+button img{
+    height: 15px;
+    width: 15px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second-navigation bar</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Shizuru&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            
+        }
+        body{
+            background: violet;
+        }
+        header{
+            background-color: black;
+            /* color: black; */
+            border-radius: 4px;
+        }
+        header{
+            overflow: auto;
+        }
+         .navbar li{
+            overflow: none;
+            list-style: none;
+            padding: 3px 5px;
+            margin: 5px;
+            padding-top: 7px;
+        }
+        .navbar li{
+            float: left;
+        }
+        .navbar a{
+            color: blanchedalmond;
+            text-decoration: none;
+        }
+
+        .navbar a:hover{
+            color: tomato;
+            text-shadow: 3px 2px 5px 0 red;
+            font-size: 18px;
+        }
+        .sir{
+            float: right;
+            
+           color: white;
+           padding: 12px 75px;
+}
+        }
+        .sir input{
+            border: 2px solid rgb(204, 23, 23);
+            border-radius: 40px;
+        }
+        section{
+            text-align: center;
+            position: relative;
+            top: 350px;
+            padding: 5px 15px;
+        }
+        section button{
+            border: 1px solid black;
+            border-radius: 40px;
+            box-shadow: 2px 2px 7px 0 black;
+            font-size: 17px;
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            background-color: blueviolet;
+           
+        }
+        section button:hover{
+            color: chartreuse;
+            background-color: rgb(203, 113, 255);
+            text-shadow: 3px 3px 5px red, 2px 3px 5px orangered;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">Contact</a></li>
+
+                <div class="sir">
+                   <a href="https://www.google.com/"> <input type="text" placeholder="search here"></a>
+                </div>
+
+            </ul>
+           
+        </nav>
+    </header>
+
+    <section>
+      <a href="#"><button>
+            Click ME
+        </button></a>
+    </section>
+    
+</body>
+</html>
